@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+button:focus,
+input,
+input:focus,
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+a {
+  display: inline-block;
+}
+
+body {
+  min-width: 320px;
+  background: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1125px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}

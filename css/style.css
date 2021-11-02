@@ -1,0 +1,25 @@
+@import url(normalize.css);
+
+@import url(header.css);
+
+@import url(main.css);
+
+@import url(section.css);
+
+@import url(brand.css);
+
+@import url(simple.css);
+
+@import url(message.css);
+
+@import url(footer.css);
+
+
+.header-nav__button:hover,
+.header-bottom__button:hover,
+.ice-cream__button:hover,
+.cards-block__button:hover,
+.row__btn:hover,
+.footer__btn:hover{
+  background: rgb(134, 6, 6);
+}

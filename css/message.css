@@ -1,0 +1,89 @@
+.row {
+  width: 100%;
+  background: #fff;
+  padding: 80px 0 109px;
+
+}
+
+.row__title {
+  width: 530px;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.row__form {
+  width: 100%;
+  margin-top: 28px;
+}
+
+.row__label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.row__inp {
+  width: 55%;
+  height: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #0F0000;
+  opacity: 0.6;
+  background: #eee9ee;
+  border-radius: 3px;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.row__btn {
+  width: 15%;
+  height: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  border-radius: 3px;
+  background: #D64374;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+
+@media (max-width: 767px) {
+  .row__title {
+    width: 100%;
+  }
+  .row {
+    padding: 50px 0 89px;
+  }
+}
+
+@media (max-width: 575px) {
+  .row__inp{
+    width: 70%;
+    height: 43px;
+  }
+  .row__btn{
+    width: 30%;
+    height: 43px;
+  }
+
+  .row__title{
+    font-size: 41px;
+  }
+
+}

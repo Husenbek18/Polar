@@ -1,0 +1,101 @@
+.section {
+  width: 100%;
+  background: #F8EDF0;
+}
+
+.ice-cream {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.ice-cream__left {
+  width: 43%;
+  padding: 143px 0;
+
+}
+
+.ice-cream__title {
+  width: 349px;
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+  color: #150101;
+}
+
+.ice-cream__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150101;
+  opacity: 0.6;
+  padding: 28px 0 25px;
+}
+
+.ice-cream__button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FAFAFA;
+  background: #D64374;
+  border-radius: 5px;
+  padding: 15px 40px;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.ice-cream__right {
+  padding-top: 60px;
+}
+
+.ice-cream__img:hover{
+  transform: scale(1.04);
+}
+
+
+
+@media (max-width: 991px) {
+  .ice-cream {
+    display: block;
+  }
+
+  .ice-cream__left {
+    width: 100%;
+    text-align: center;
+    padding: 70px 0;
+  }
+
+  .ice-cream__title {
+    width: 100%;
+  }
+
+  .ice-cream__img {
+    width: 70%;
+
+  }
+
+  .ice-cream__right {
+    padding-top: 10px;
+    text-align: center;
+
+  }
+  .ice-cream__button{
+    padding: 13px 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .ice-cream__img{
+    width: 100%;
+  }
+  .ice-cream__left{
+    padding: 40px 0;
+  }
+}

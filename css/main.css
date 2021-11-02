@@ -1,0 +1,95 @@
+.main {
+  width: 100%;
+}
+
+.collect {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.collect-block {
+  width: 250px;
+  height: 200px;
+  background: #FFFFFF;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+  text-align: center;
+  padding: 35px 0;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.collect-block:hover {
+  background: #F8EDF0;
+  transform: scale(1.1);
+}
+
+.collect-block__icon {
+  color: red;
+  font-size: 30px;
+}
+
+.collect-block__icon2 {
+  color: green;
+  font-size: 30px;
+}
+
+.collect-block__icon3 {
+  color: crimson;
+  font-size: 30px;
+}
+
+.collect-block__icon4 {
+  color: brown;
+  font-size: 30px;
+}
+
+.collect-block__title {
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 20px 0 10px;
+}
+
+.collect-block__text {
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+@media (max-width: 991px) {
+  .collect-block {
+    width: 175px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .collect{
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+
+
+  }
+  .collect-block{
+   width: 50%;
+
+  }
+}
+
+@media (max-width: 575px){
+  .collect{
+    width: 100%;
+  }
+
+  .collect-block{
+    width: 100%;
+  }
+}

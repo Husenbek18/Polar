@@ -1,0 +1,273 @@
+.brand {
+  width: 100%;
+  background: #fff;
+}
+
+.cards-top {
+  width: 100%;
+  text-align: center;
+  padding-top: 137px;
+}
+
+.cards-top__title {
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 61px;
+  color: #150101;
+}
+
+
+.cards-top__itim {
+  padding-top: 60px;
+}
+
+.cards-top__list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+  padding-left: 40px;
+}
+
+.cards-top__list:hover {
+  text-decoration: underline;
+  text-decoration-color: #D64374;
+  font-weight: 700;
+  color: #000000;
+}
+
+.cards-block {
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 113px;
+}
+
+
+.cards-block__check {
+  width: 40%;
+}
+
+.gen__right {
+  text-align: right;
+}
+
+.cards-block__title {
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.cards-block__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+  padding: 11px 0 22px;
+}
+
+.cards-block__one {
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.cards-block__span {
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration-line: line-through;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.cards-block__button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FAFAFA;
+  background: #D64374;
+  border-radius: 5px;
+  padding: 15px 50px;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.cards-block__four {
+  display: flex;
+}
+
+.cards-block__four__title {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.cards-block__neil {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.cards-block__america {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  padding-top: 5px;
+}
+
+.cards-lorem {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+  margin: 51px 0;
+}
+
+.cards-block__fancybox{
+  padding-bottom: 40px;
+}
+
+.cards-block__img{
+  width: 50%;
+}
+
+.cards-block__icon {
+  color: #D64374;
+}
+
+.cards-block__face__img {
+  padding-left: 30px;
+}
+
+.cards-block__img:hover {
+  transform: scale(1.06);
+}
+
+@media (max-width: 991px) {
+  .cards-top {
+    width: 100%;
+    padding-top: 45px;
+  }
+
+  .cards-top__itim {
+    padding-top: 20px;
+  }
+
+  .cards-top__list{
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+
+  .cards-row{
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+  }
+
+  .cards-block{
+    padding-bottom: 100px;
+  }
+
+  .cards-block__check{
+    width: 100%;
+  }
+
+  .cards-block__text{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .gen__right{
+    text-align: center;
+    padding: 30px 0 45px ;
+  }
+
+  .cards-block__four{
+    display: block;
+
+  }
+
+  .cards-lorem{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  .cards-block__img{
+    width: 70%;
+    padding-bottom: 20px;
+  }
+
+  .cards-block__fancybox{
+    padding-bottom: 60px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .cards-block__button{
+    padding: 13px 33px;
+  }
+
+  .cards-block__text{
+    width: 100%;
+  }
+
+  .cards-lorem{
+    width: 100%;
+  }
+
+  .cards-row{
+    padding-top: 50px;
+  }
+
+  .gen__right{
+    order: inherit
+  }
+}
+
+
+@media (max-width: 320px) {
+  .cards-block{
+    padding-bottom: 50px;
+  }
+
+  .cards-block__img{
+    width: 100%;
+
+  }
+}
